@@ -42,6 +42,7 @@
 ![1](/Image/5.png)
 在`Changes`整个选项卡层级选择`Stage All Changes`即可全部提交
 **TipsNote:** 已经提交到`Staged Changes`里面的文件,我们也可以通过`Unstaged Change`s把文件或者`block`置回`Changes`区域
+当本地更新确认完成后,
 
 
 ##### 4. GIT常用功能列表讲解
