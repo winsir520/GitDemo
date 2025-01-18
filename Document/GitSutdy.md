@@ -1,10 +1,10 @@
 
 ## <div align="center">  Git Study</div>
 
-##### 1. 修改后再文件管理界面提示
+##### 1. 修改后文件管理界面的提示
 ![1](/Image/1.png)
 当我们对分支进行新增时，新增部分会`Unmerged`的标识
-有修改时，有M`modifier`的标识
+有修改时，有M`modify`的标识
 
 `git status`是 Git 中的一个常用命令，用于显示当前工作目录和暂存区的状态，帮助你了解哪些文件已经被修改、哪些文件已准备好提交、哪些文件还未被跟踪（新文件）等信息。
 
@@ -42,8 +42,9 @@
 ![1](/Image/5.png)
 在`Changes`整个选项卡层级选择`Stage All Changes`即可全部提交
 **TipsNote:** 已经提交到`Staged Changes`里面的文件,我们也可以通过`Unstaged Change`s把文件或者`block`置回`Changes`区域
-当本地更新确认完成后,
 
+![1](/Image/7.png)
+当本地更新确认完成后,可以选择 `Sync Changes` 来将本地仓库同步Push到线上仓库
 
 ##### 4. GIT常用功能列表讲解
 ![1](/Image/3.png)
