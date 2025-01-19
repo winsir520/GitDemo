@@ -67,3 +67,9 @@
    ![1](/Image/12.png)
 
 现在我们的主支想获取分支的变动,首先我们先要切换到主支`main`
+
+`Git`选项卡在`Source Control`右边三个点然后点选`Branch` → `Merge`
+![1](/Image/14.png)
+
+然后选择从分支上获取更新
+![1](/Image/15.png)
