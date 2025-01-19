@@ -1,0 +1,3 @@
+[submodule "MyNewRepo/GitTest02"]
+	path = MyNewRepo/GitTest02
+	url = https://github.com/winsir520/GitTest02.git
