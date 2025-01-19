@@ -103,11 +103,17 @@
 ```
 git submodule add 这是添加子仓库命令 
 https://github.com/winsir520/GitTest02.git 这是仓库的线上URL
-MyNewRepo/GitTest02 前面是仓库存储在父仓库的位置
+MyNewRepo/GitTest02 前面是仓库存储在母仓库的位置
 最后是子仓库的名字
 ```
 ![1](/Image/10.png)
 
-同时在夫仓库的根目录下会自动生成一个`.gitmodules.txt`文件，这个文件用来记录所有子模块的信息，包括子仓库的 URL 和它们在母仓库中的存放路径
+同时在母仓库的根目录下会自动生成一个`.gitmodules.txt`文件，这个文件用来记录所有子模块的信息，包括子仓库的 URL 和它们在母仓库中的存放路径
+
+### 6. 暂存功能Stash
+当我们的修改暂时不确认是否要提交，或者晚一点再确认时，可以使用`Stash`来暂存我们的`Changes`
+![1](/Image/18.png)
+
+
 
 
